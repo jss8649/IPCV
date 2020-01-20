@@ -1,0 +1,14 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/jakestevens/Documents/src/C++/modules/ipcv/imgs/apps/transform_rst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f26de/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake cmTC_f26de/fast && 
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/jakestevens/Documents/src/C++/modules/ipcv/imgs/apps/transform_rst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_13979/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake cmTC_13979/fast && 
+
+

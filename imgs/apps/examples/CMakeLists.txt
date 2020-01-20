@@ -1,0 +1,5 @@
+add_subdirectory(diana)
+add_subdirectory(dist)
+add_subdirectory(image_comparison)
+add_subdirectory(plot2d)
+add_subdirectory(fourier)

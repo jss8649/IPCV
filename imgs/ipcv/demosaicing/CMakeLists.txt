@@ -1,0 +1,19 @@
+imgs_add_library(ipcv_demosaicing
+  SOURCES
+    Bilinear.cpp
+    LarochePrescott.cpp
+    Homogeneity.cpp
+  HEADERS
+    Bilinear.h
+    LarochePrescott.h
+    Demosaic.h
+    Homogeneity.h
+)
+
+target_link_libraries(ipcv_demosaicing
+  PUBLIC 
+    opencv_core
+    ipcv_utils
+    opencv_imgproc
+    opencv_highgui
+)

@@ -1,0 +1,23 @@
+imgs_add_library(ipcv_geometric_transformation
+  SOURCES
+    MapGCP.cpp
+    MapQ2Q.cpp
+    MapRST.cpp
+    MapRotation3D.cpp
+    Remap.cpp
+  HEADERS
+    MapGCP.h
+    MapQ2Q.h
+    MapRST.h
+    MapRotation3D.h
+    Remap.h
+    GeometricTransformation.h
+)
+
+target_link_libraries(ipcv_geometric_transformation 
+  PUBLIC 
+    opencv_core
+    opencv_highgui
+    Eigen3::Eigen
+    ipcv_utils
+)
